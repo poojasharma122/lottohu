@@ -69,6 +69,9 @@
     .after_banner .text_white {
         font-size: 17px;
     }
+    .latest-jackpot-card img {
+        height: 380px !important;
+    }
 
 }
 
@@ -90,6 +93,9 @@
 
     .sub-banner {
         height: 50vh;
+    }
+    .jackpot-card img {
+        height: 250px !important;
     }
 }
 
@@ -129,6 +135,16 @@
 
     .sub-banner {
         height: 45vh;
+    }
+    .jackpot-card img {
+        height: 290px !important;
+    }
+
+    .latest-jackpot-card h5{
+
+    }
+    .latest-jackpot-card img {
+        height: 250px !important;
     }
 }
 
@@ -227,10 +243,22 @@
     .sub-banner {
         height: 40vh;
     }
+
     .sticky-header {
-      
+
         padding: 5px 0px;
-       
+
+    }
+
+    .footer-pages-content-grp h3 {
+        font-size: 22px;
+
+    }
+    .latest-jackpot-card img {
+        height: 400px !important;
+    }
+    .jackpot-card img {
+        height: 420px !important;
     }
 }
 
@@ -264,13 +292,13 @@
         font-size: 14px;
     }
 
-    .footer-pages-content-grp h3 {
+    /* .footer-pages-content-grp h3 {
         font-size: 1.5rem;
     }
 
     .footer-pages-wrap {
         padding: 1.25rem;
-    }
+    } */
 
     .after_banner {
 
@@ -310,11 +338,28 @@
         min-width: 600px;
         /* make table wider than viewport so scrolling appears */
     }
+
     .menu-toggle-btn svg {
         width: 25px;
-        
+
         right: 5px;
     }
+
+    .footer-pages-content-grp h3 {
+        font-size: 20px;
+    }
+
+    .footer-pages-content-grp p {
+        font-size: 15px;
+        
+    }
+    .latest-jackpot-card img {
+        height: 280px !important;
+    }
+    .jackpot-card img {
+        height: 280px !important;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -451,5 +496,22 @@
 
     .sub-banner {
         height: 35vh;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 17px;
+    }
+    .footer-pages-content-grp p {
+        font-size: 14px;
+    }
+    .footer-pages-wrap {
+       
+        padding: 20px;
+        
+    }
+    .latest-jackpot-card img {
+        height: 200px !important;
+    }
+    .jackpot-card img {
+        height: 200px !important;
     }
 }
