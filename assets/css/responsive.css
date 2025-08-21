@@ -1,520 +1,524 @@
 /* Responsive toggle for ≤1399px */
 @media screen and (max-width: 1399px) {
-    .navigation-menu {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        height: 100vh;
-        width: 280px;
-        background: #111;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        transition: right 0.3s ease;
-        z-index: 1000;
-    }
+.navigation-menu {
+position: fixed;
+top: 0;
+right: -100%;
+height: 100vh;
+width: 280px;
+background: #111;
+display: flex;
+flex-direction: column;
+justify-content: start;
+transition: right 0.3s ease;
+z-index: 1000;
+}
+.navigation-menu ul li a {
+font-size: 15px;
+padding: 9px;
+font-weight: 400;
+}
+.navigation-menu.active {
+right: 0;
+}
 
-    .navigation-menu.active {
-        right: 0;
-    }
+.menu-toggle-btn {
+display: block;
+cursor: pointer;
+}
 
-    .menu-toggle-btn {
-        display: block;
-        cursor: pointer;
-    }
+.menu-close-btn {
+position: absolute;
+top: 20px;
+right: 20px;
+cursor: pointer;
+display: block;
+}
 
-    .menu-close-btn {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-        display: block;
-    }
+.navigation-menu ul {
+display: block;
+padding-top: 40px;
+}
 
-    .navigation-menu ul {
-        display: block;
-        padding-top: 40px;
-    }
-
-    .menu-close-btn svg {
-        width: 25px;
-        height: auto;
-    }
+.menu-close-btn svg {
+width: 25px;
+height: auto;
+}
 
 
 
 
 
-    /* banner  */
-    .home_content h1 {
-        font-size: 40px;
-    }
+/* banner  */
+.home_content h1 {
+font-size: 40px;
+}
 
-    .banner_section {
-        height: 80vh;
-    }
+.banner_section {
+height: 80vh;
+}
 
-    .newletter a {
+.newletter a {
 
-        padding: 9px 20px;
+padding: 9px 20px;
 
-    }
+}
 
-    .sub-banner {
-        height: 60vh;
-    }
+.sub-banner {
+height: 60vh;
+}
 }
 
 @media screen and (max-width: 1199px) {
-    .after_banner .text_white {
-        font-size: 17px;
-    }
-    .latest-jackpot-card img {
-        height: 380px !important;
-    }
+.after_banner .text_white {
+font-size: 17px;
+}
+.latest-jackpot-card img {
+height: 380px !important;
+}
 
 }
 
 @media screen and (max-width: 1024px) {
 
-    /* .banner_section */
-    .banner_section {
-        height: 70vh;
-    }
+/* .banner_section */
+.banner_section {
+height: 70vh;
+}
 
-    .home_content h1 {
-        font-size: 37px;
-    }
+.home_content h1 {
+font-size: 37px;
+}
 
 
-    .after_banner .text_white {
-        font-size: 17px;
-    }
+.after_banner .text_white {
+font-size: 17px;
+}
 
-    .sub-banner {
-        height: 50vh;
-    }
-    .jackpot-card img {
-        height: 250px !important;
-    }
+.sub-banner {
+height: 50vh;
+}
+.jackpot-card img {
+height: 250px !important;
+}
 }
 
 @media screen and (max-width: 991px) {
-    .banner_section {
-        height: 60vh;
-    }
+.banner_section {
+height: 60vh;
+}
 
-    .home_content h1 {
-        font-size: 30px;
-    }
+.home_content h1 {
+font-size: 30px;
+}
 
-    .after_banner .text_white {
-        font-size: 15px;
-    }
+.after_banner .text_white {
+font-size: 15px;
+}
 
 
-    .footer-links {
-        padding-left: 0;
-    }
+.footer-links {
+padding-left: 0;
+}
 
-    .footer-top {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
-    }
+.footer-top {
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 15px;
+}
 
-    .footer-logo {
-        grid-column: 1 / -1;
-        padding-bottom: 20px;
-    }
+.footer-logo {
+grid-column: 1 / -1;
+padding-bottom: 20px;
+}
 
-    .footer-links,
-    .footer-contact {
-        grid-column: auto;
-        padding-left: 0;
-    }
+.footer-links,
+.footer-contact {
+grid-column: auto;
+padding-left: 0;
+}
 
-    .sub-banner {
-        height: 45vh;
-    }
-    .jackpot-card img {
-        height: 290px !important;
-    }
+.sub-banner {
+height: 45vh;
+}
+.jackpot-card img {
+height: 290px !important;
+}
 
-    .latest-jackpot-card h5{
+.latest-jackpot-card h5{
 
-    }
-    .latest-jackpot-card img {
-        height: 250px !important;
-    }
+}
+.latest-jackpot-card img {
+height: 250px !important;
+}
 }
 
 @media screen and (max-width: 767px) {
-    .home_content h1 {
-        font-size: 27px;
-    }
+.home_content h1 {
+font-size: 27px;
+}
 
-    .upper-img-div img {
-        /* max-width: 70%; */
-        height: 410px;
-        width: 100%;
-        object-fit: cover;
-    }
+.upper-img-div img {
+/* max-width: 70%; */
+height: 410px;
+width: 100%;
+object-fit: cover;
+}
 
-    .card-body {
-        padding-left: 0;
-    }
+.card-body {
+padding-left: 0;
+}
 
-    .new-bg .card {
-        max-width: 770px;
-    }
+.new-bg .card {
+max-width: 770px;
+}
 
-    .hic-content {
-        padding-top: 40px;
-    }
+.hic-content {
+padding-top: 40px;
+}
 
-    .resonponsible-warning h2 {
+.resonponsible-warning h2 {
 
-        font-size: 30px;
+font-size: 30px;
 
-    }
+}
 
-    .resonponsible-warning p {
+.resonponsible-warning p {
 
-        font-size: 16px;
+font-size: 16px;
 
-    }
+}
 
-    .footer-bottom {
-        flex-direction: column;
-        justify-content: center;
-        gap: 1.25rem;
-        padding-top: 1.5625rem;
-    }
+.footer-bottom {
+flex-direction: column;
+justify-content: center;
+gap: 1.25rem;
+padding-top: 1.5625rem;
+}
 
-    .footer-top {
-        grid-template-columns: 1fr;
-    }
+.footer-top {
+grid-template-columns: 1fr;
+}
 
-    .footer-logo,
-    .footer-links,
-    .footer-contact {
-        grid-column: 1 / -1;
-        padding-left: 0;
-    }
+.footer-logo,
+.footer-links,
+.footer-contact {
+grid-column: 1 / -1;
+padding-left: 0;
+}
 
-    .social-icons {
+.social-icons {
 
-        padding-bottom: 20px;
-    }
+padding-bottom: 20px;
+}
 
-    .how-list {
-        padding-left: 10px;
-    }
+.how-list {
+padding-left: 10px;
+}
 
-    .new-bg {
+.new-bg {
 
-        padding-bottom: 10px !important;
-    }
+padding-bottom: 10px !important;
+}
 
-    .disclaimer {
+.disclaimer {
 
-        padding: 30px 0px;
-    }
+padding: 30px 0px;
+}
 
-    .footer-top {
+.footer-top {
 
-        padding-top: 30px !important;
-    }
+padding-top: 30px !important;
+}
 
-    .footer-links li a {
-        font-size: 16px;
-    }
+.footer-links li a {
+font-size: 16px;
+}
 
-    .footer-top h4 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+.footer-top h4 {
+font-size: 20px;
+margin-bottom: 10px;
+}
 
-    .cards-section {
+.cards-section {
 
-        padding: 25px 0 !important;
-    }
+padding: 25px 0 !important;
+}
 
-    .sub-banner {
-        height: 40vh;
-    }
+.sub-banner {
+height: 40vh;
+}
 
-    .sticky-header {
+.sticky-header {
 
-        padding: 5px 0px;
+padding: 5px 0px;
 
-    }
+}
 
-    .footer-pages-content-grp h3 {
-        font-size: 22px;
+.footer-pages-content-grp h3 {
+font-size: 22px;
 
-    }
-    .latest-jackpot-card img {
-        height: 400px !important;
-    }
-    .jackpot-card img {
-        height: 420px !important;
-    }
+}
+.latest-jackpot-card img {
+height: 400px !important;
+}
+.jackpot-card img {
+height: 420px !important;
+}
 }
 
 @media screen and (max-width: 575px) {
-    .form-wrap {
-    flex-direction: column;
+.form-wrap {
+flex-direction: column;
 }
-    .banner_section {
-        height: 50vh;
-    }
+.banner_section {
+height: 50vh;
+}
 
-    .home_content h1 {
-        font-size: 22px;
-    }
+.home_content h1 {
+font-size: 22px;
+}
 
-    .upper-img-div img {
-        /* max-width: 70%; */
-        height: 360px;
-        width: 100%;
-        object-fit: cover;
-    }
+.upper-img-div img {
+/* max-width: 70%; */
+height: 360px;
+width: 100%;
+object-fit: cover;
+}
 
-    .hows-it-works h2 {
-        font-size: 25px;
-        /* font-weight: 600; */
-    }
+.hows-it-works h2 {
+font-size: 25px;
+/* font-weight: 600; */
+}
 
-    .card-title {
-        font-size: 16px;
-    }
+.card-title {
+font-size: 16px;
+}
 
-    .newletter a {
-        padding: 9px 20px;
-        font-size: 14px;
-    }
+.newletter a {
+padding: 9px 20px;
+font-size: 14px;
+}
 
-    /* .footer-pages-content-grp h3 {
-        font-size: 1.5rem;
-    }
+/* .footer-pages-content-grp h3 {
+font-size: 1.5rem;
+}
 
-    .footer-pages-wrap {
-        padding: 1.25rem;
-    } */
+.footer-pages-wrap {
+padding: 1.25rem;
+} */
 
-    .after_banner {
+.after_banner {
 
-        padding: 30px 0;
-    }
+padding: 30px 0;
+}
 
-    .cards-section {
+.cards-section {
 
-        padding: 20px 0 !important;
-    }
+padding: 20px 0 !important;
+}
 
-    .disclaimer {
-        background-color: #1e1e23;
-        padding: 30px 0px;
-    }
+.disclaimer {
+background-color: #1e1e23;
+padding: 30px 0px;
+}
 
-    .footer-links li a {
-        font-size: 15px;
-    }
+.footer-links li a {
+font-size: 15px;
+}
 
-    .footer-top h4 {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
+.footer-top h4 {
+font-size: 18px;
+margin-bottom: 10px;
+}
 
-    .sub-banner {
-        height: 40vh;
-    }
+.sub-banner {
+height: 40vh;
+}
 
-    .table-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        /* smooth scrolling on iOS */
-    }
+.table-responsive-sm {
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+/* smooth scrolling on iOS */
+}
 
-    .table-responsive-sm table {
-        min-width: 600px;
-        /* make table wider than viewport so scrolling appears */
-    }
+.table-responsive-sm table {
+min-width: 600px;
+/* make table wider than viewport so scrolling appears */
+}
 
-    .menu-toggle-btn svg {
-        width: 25px;
+.menu-toggle-btn svg {
+width: 25px;
 
-        right: 5px;
-    }
+right: 5px;
+}
 
-    .footer-pages-content-grp h3 {
-        font-size: 20px;
-    }
+.footer-pages-content-grp h3 {
+font-size: 20px;
+}
 
-    .footer-pages-content-grp p {
-        font-size: 15px;
-        
-    }
-    .latest-jackpot-card img {
-        height: 280px !important;
-    }
-    .jackpot-card img {
-        height: 280px !important;
-    }
+.footer-pages-content-grp p {
+font-size: 15px;
+
+}
+.latest-jackpot-card img {
+height: 280px !important;
+}
+.jackpot-card img {
+height: 280px !important;
+}
 
 }
 
 @media screen and (max-width: 480px) {
 
-    .banner_section {
-        height: 40vh;
-    }
+.banner_section {
+height: 40vh;
+}
 
-    .home_content h1 {
-        font-size: 15px;
-    }
+.home_content h1 {
+font-size: 15px;
+}
 
-    .after_banner {
+.after_banner {
 
-        padding: 40px 0;
-    }
+padding: 40px 0;
+}
 
-    .upper-img-div img {
-        /* max-width: 70%; */
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
-    }
+.upper-img-div img {
+/* max-width: 70%; */
+height: 200px;
+width: 100%;
+object-fit: cover;
+}
 
-    .card-content p {
-        font-size: 14px;
-    }
+.card-content p {
+font-size: 14px;
+}
 
-    .card-content h5 {
-        font-size: 16px;
-    }
+.card-content h5 {
+font-size: 16px;
+}
 
-    .card-title {
-        font-size: 18px;
-    }
+.card-title {
+font-size: 18px;
+}
 
-    .steps li {
+.steps li {
 
-        font-size: 14px;
+font-size: 14px;
 
-    }
+}
 
-    .card-title {
-        font-size: 14px;
-    }
+.card-title {
+font-size: 14px;
+}
 
-    .resonponsible-warning h2 {
-        font-size: 18px;
-    }
+.resonponsible-warning h2 {
+font-size: 18px;
+}
 
-    .resonponsible-warning p {
-        font-size: 14px;
-    }
+.resonponsible-warning p {
+font-size: 14px;
+}
 
-    .resonponsible-warning {
-        padding: 30px 0px;
-    }
+.resonponsible-warning {
+padding: 30px 0px;
+}
 
-    .disclaimer h2 {
+.disclaimer h2 {
 
-        font-size: 20px;
+font-size: 20px;
 
-    }
+}
 
-    .disclaimer p {
-        font-size: 14px;
-        line-height: 1.8;
-    }
+.disclaimer p {
+font-size: 14px;
+line-height: 1.8;
+}
 
-    .disclaimer {
-        background-color: #1e1e23;
-        padding: 30px 0px;
-    }
+.disclaimer {
+background-color: #1e1e23;
+padding: 30px 0px;
+}
 
-    .cards-section {
+.cards-section {
 
-        padding-top: 20px !important;
-        padding-bottom: 20px !important;
-    }
+padding-top: 20px !important;
+padding-bottom: 20px !important;
+}
 
-    .hows-it-works h2 {
-        font-size: 20px;
-        /* font-weight: 600; */
-    }
+.hows-it-works h2 {
+font-size: 20px;
+/* font-weight: 600; */
+}
 
-    .newletter h2 {
+.newletter h2 {
 
-        font-size: 23px;
+font-size: 23px;
 
-    }
+}
 
-    .newletter p {
-        color: #d1d1d1;
-        font-size: 14px;
+.newletter p {
+color: #d1d1d1;
+font-size: 14px;
 
-    }
+}
 
-    .newletter a {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
+.newletter a {
+padding: 8px 15px;
+font-size: 14px;
+}
 
-    .newletter {
+.newletter {
 
-        padding: 30px 10px;
+padding: 30px 10px;
 
-    }
+}
 
-    .footer-links li a {
+.footer-links li a {
 
-        font-size: 14px;
+font-size: 14px;
 
-    }
+}
 
-    .footer-bottom p {
+.footer-bottom p {
 
-        font-size: 15px;
-    }
+font-size: 15px;
+}
 
-    .footer-top h4 {
-        font-size: 18px;
-        margin-bottom: 10px;
+.footer-top h4 {
+font-size: 18px;
+margin-bottom: 10px;
 
-    }
+}
 
-    .card a {
+.card a {
 
-        font-size: 14px;
-    }
+font-size: 14px;
+}
 
-    .card-img-top img {
-        width: 50px !important;
-    }
+.card-img-top img {
+width: 50px !important;
+}
 
-    .sub-banner {
-        height: 35vh;
-    }
-    .footer-pages-content-grp h3 {
-        font-size: 17px;
-    }
-    .footer-pages-content-grp p {
-        font-size: 14px;
-    }
-    .footer-pages-wrap {
-       
-        padding: 20px;
-        
-    }
-    .latest-jackpot-card img {
-        height: 200px !important;
-    }
-    .jackpot-card img {
-        height: 200px !important;
-    }
+.sub-banner {
+height: 35vh;
+}
+.footer-pages-content-grp h3 {
+font-size: 17px;
+}
+.footer-pages-content-grp p {
+font-size: 14px;
+}
+.footer-pages-wrap {
+
+padding: 20px;
+
+}
+.latest-jackpot-card img {
+height: 200px !important;
+}
+.jackpot-card img {
+height: 200px !important;
+}
 }

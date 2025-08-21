@@ -901,23 +901,6 @@ footer {
     background-color: #1e1e23;
 }
 
-.about-temp p {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1008,14 +991,20 @@ footer {
 
 
 
-
-
-
-
 .jackpot-card img{
     height: 300px !important;
 }
 
 .latest-jackpot-card img{
     height: 500px !important;
+}
+
+
+.bg-info {
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    line-height: 41px;
+    padding: 0 !important;
 }
