@@ -268,9 +268,9 @@ h6 {
 
 .home_content h1 {
     /* font-size: 3rem;
-    color: #fff;
-    font-weight: 500;
-    line-height: 1.2; */
+color: #fff;
+font-weight: 500;
+line-height: 1.2; */
     color: #FFF;
     text-align: center;
     font-size: 58px;
@@ -308,7 +308,7 @@ h6 {
 .after_banner .text_white {
     color: #fff;
     /* font-size: 1.05rem;
-    line-height: 1.7; */
+line-height: 1.7; */
     font-size: 19px;
     font-weight: 300;
     line-height: 1.6;
@@ -571,6 +571,7 @@ h6 {
 section.cards-section h2 {
     margin-bottom: 20px;
 }
+
 .disclaimer h2 {
     color: #fff;
     font-size: 25px;
@@ -605,6 +606,7 @@ section.cards-section h2 {
     max-width: 600px;
     margin: 0 auto 40px;
 }
+
 /* footer  */
 footer {
     background-color: #1e1e23;
@@ -983,7 +985,8 @@ footer {
 .footer-pages-content-grp a {
     color: white;
 }
-.footer-pages-content-section{
+
+.footer-pages-content-section {
     background-color: #252530;
 }
 
@@ -991,11 +994,11 @@ footer {
 
 
 
-.jackpot-card img{
+.jackpot-card img {
     height: 300px !important;
 }
 
-.latest-jackpot-card img{
+.latest-jackpot-card img {
     height: 500px !important;
 }
 
@@ -1003,31 +1006,19 @@ footer {
 .bg-new {
     background-color: #f05454 !important;
 }
+
 .bg-warning {
     background-color: #6c757d !important;
     color: #fff !important;
 }
+
 .bg-info {
-    border-radius: 50%;
     height: 44px;
     width: 44px;
     text-align: center;
     line-height: 41px;
     padding: 0 !important;
+    background-color: #6c757d !important;
+    color: #fff !important;
 }
 
-
-.svg-group {
-  fill: #ffffff;
-  fill-rule: nonzero;
-  stroke: none;
-  stroke-width: 1;
-  stroke-linecap: butt;
-  stroke-linejoin: miter;
-  stroke-miterlimit: 10;
-  mix-blend-mode: normal !important;
-  text-anchor: start !important;   
-  font-family: inherit !important; 
-  font-weight: normal !important;
-  font-size: inherit !important;
-}
