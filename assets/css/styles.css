@@ -568,7 +568,9 @@ h6 {
 }
 
 
-
+section.cards-section h2 {
+    margin-bottom: 20px;
+}
 .disclaimer h2 {
     color: #fff;
     font-size: 25px;
