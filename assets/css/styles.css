@@ -115,9 +115,9 @@ h6 {
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 2.75rem;
-    width: 110px;
-    display: inline-block;
+    height: 75px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .sticky-header.fixed_header .brand-container a {
@@ -1003,6 +1003,10 @@ footer {
 .bg-new {
     background-color: #f05454 !important;
 }
+.bg-warning {
+    background-color: #6c757d !important;
+    color: #fff !important;
+}
 .bg-info {
     border-radius: 50%;
     height: 44px;
@@ -1010,4 +1014,20 @@ footer {
     text-align: center;
     line-height: 41px;
     padding: 0 !important;
+}
+
+
+.svg-group {
+  fill: #ffffff;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: 1;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  mix-blend-mode: normal !important;
+  text-anchor: start !important;   
+  font-family: inherit !important; 
+  font-weight: normal !important;
+  font-size: inherit !important;
 }
