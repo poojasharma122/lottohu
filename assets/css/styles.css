@@ -60,7 +60,11 @@ h6 {
 .text_white {
     color: #fff;
 }
-
+img{
+    object-fit: cover !important;
+    width: 100% !important;
+    max-width:100% !important;
+}
 
 
 /* Header CSS Start */
